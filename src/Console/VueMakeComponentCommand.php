@@ -1,6 +1,6 @@
 <?php
 
-namespace Epmnzava\VueComponent\Console\Commands;
+namespace Epmnzava\VueComponent\Console;
 
 use Illuminate\Console\GeneratorCommand;
 
