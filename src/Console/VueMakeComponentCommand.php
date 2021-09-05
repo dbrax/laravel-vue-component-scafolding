@@ -4,7 +4,7 @@ namespace Epmnzava\VueComponent\Console\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 
-class VueMakeCommand extends GeneratorCommand
+class VueMakeComponentCommand extends GeneratorCommand
 {
     /**
      * The console command name.
