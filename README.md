@@ -3,7 +3,7 @@
 You can install the package via composer:
 
 ```bash
-composer require epmnzava/laravel-vue-component-scafolding
+composer require epmnzava/laravel-vue-component
 ```
 
 ## Usage
