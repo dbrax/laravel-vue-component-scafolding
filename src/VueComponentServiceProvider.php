@@ -2,6 +2,7 @@
 
 namespace Epmnzava\VueComponent;
 
+use Epmnzava\VueComponent\Console\VueMakeComponentCommand;
 use Illuminate\Support\ServiceProvider;
 
 class VueComponentServiceProvider extends ServiceProvider
@@ -11,7 +12,13 @@ class VueComponentServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+
+        $this->commands([
+            VueMakeComponentCommand::class,
+        ]);
+
         /*
+
          * Optional methods to load your package assets
          */
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'laravel-vue-component-scafolding');
