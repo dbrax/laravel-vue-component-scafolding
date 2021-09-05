@@ -11,7 +11,7 @@ composer require epmnzava/laravel-vue-component
 To generate your component run the below command
 
 ```bash
-php artisan vue-component YourComponentName
+php artisan make:vue-component YourComponentName
 
 ```
 
