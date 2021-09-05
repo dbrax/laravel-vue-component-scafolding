@@ -8,9 +8,14 @@ composer require epmnzava/laravel-vue-component
 
 ## Usage
 
-```php
-// coming soon
+To generate your component run the below command
+
+```bash
+php artisan vue-component YourComponentName
+
 ```
+
+The above command will create a vue component scafold on your resources/js/components folder
 
 ### Testing
 
