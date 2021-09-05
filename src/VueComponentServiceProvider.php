@@ -60,8 +60,8 @@ class VueComponentServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'laravel-vue-component-scafolding');
 
         // Register the main class to use with the facade
-        $this->app->singleton('vue-component', function () {
-            return new VueComponent;
-        });
+        //  $this->app->singleton('vue-component', function () {
+        //       return new VueComponent;
+        //  });
     }
 }
